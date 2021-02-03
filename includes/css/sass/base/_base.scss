@@ -1,0 +1,31 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: $base-font-size;
+    font-family: $commonFont;
+    font-weight: $font-weight-regular;
+    background-color: $bunker;
+    overflow-x: hidden;
+}
+
+a {
+    color: $gold;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+p {
+    font-size: $font-size-body;
+    font-weight: $font-weight-regular;
+    color: $white;
+}

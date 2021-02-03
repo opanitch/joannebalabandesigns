@@ -1,0 +1,1462 @@
+{
+	"projectImages": [{
+        "imageSm": "IMG_9106_s.jpg",
+        "imageLg": "IMG_9106.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "wood, cabinetry, tile, lighting, upholstery, glass"
+    }, {
+        "imageSm": "IMG_9107_s.jpg",
+        "imageLg": "IMG_9107.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "upholstery, entertainment, bar, lighting, glass, floors"
+    }, {
+        "imageSm": "IMG_9112_s.jpg",
+        "imageLg": "IMG_9112.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "entertainment, upholstery, lighting, glass"
+    }, {
+        "imageSm": "IMG_9117_s.jpg",
+        "imageLg": "IMG_9117.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "upholstery, art collection, entertainment"
+    }, {
+        "imageSm": "IMG_9143_s.jpg",
+        "imageLg": "IMG_9143.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "entertainment, art collection, lighting, wood"
+    }, {
+        "imageSm": "IMG_9177_s.jpg",
+        "imageLg": "IMG_9177.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "cabinetry, upholstery, entertainment, lighting, custom furniture, lighting, art collection"
+    }, {
+        "imageSm": "IMG_9187_s.jpg",
+        "imageLg": "IMG_9187.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "lighting, stone, cabinetry, art collection"
+    }, {
+        "imageSm": "IMG_9196_s.jpg",
+        "imageLg": "IMG_9196.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "entertainment"
+    }, {
+        "imageSm": "IMG_9289_s.jpg",
+        "imageLg": "IMG_9289.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "entertainment, lighting, stone"
+    }, {
+        "imageSm": "IMG_9295_s.jpg",
+        "imageLg": "IMG_9295.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "glass, tile, stone"
+    }, {
+        "imageSm": "IMG_9309_s.jpg",
+        "imageLg": "IMG_9309.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": "glass, tile, stone, cabinetry, entertaining"
+    }, {
+        "imageSm": "IMG_9318_s.jpg",
+        "imageLg": "IMG_9318.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "bar-and-entertainment",
+        "tags": null
+    }, {
+        "imageSm": "dining_1_s.jpg",
+        "imageLg": "dining_1.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "modern-dining-room",
+        "tags": "art collection, glass, lighting, window treatments, metal, cabinetry, tile"
+	}, {
+        "imageSm": "IMG_0534_s.jpg",
+        "imageLg": "IMG_0534.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "a-view-from-above",
+        "tags": "metal, lighting"
+    }, {
+        "imageSm": "IMG_0536_s.jpg",
+        "imageLg": "IMG_0536.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "a-view-from-above",
+        "tags": "metal, stone, tile, lighting"
+    }, {
+        "imageSm": "IMG_0547_s.jpg",
+        "imageLg": "IMG_0547.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "a-view-from-above",
+        "tags": "upholstery, metal"
+	}, {
+        "imageSm": "IMG_0410_s.jpg",
+        "imageLg": "IMG_0410.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "dining-room-wine-cellar",
+        "tags": "metal, stone, cabinetry, lighting"
+    }, {
+        "imageSm": "IMG_0420_s.jpg",
+        "imageLg": "IMG_0420.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "dining-room-wine-cellar",
+        "tags": "window treatments, custom furniture, millwork"
+	}, {
+        "imageSm": "IMG_0274_s.jpg",
+        "imageLg": "IMG_0274.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "fun-family-room",
+        "tags": "window treatments, custom furniture, millwork, floors"
+    }, {
+        "imageSm": "IMG_0287_s.jpg",
+        "imageLg": "IMG_0287.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "fun-family-room",
+        "tags": "upholstery, lighting"
+    }, {
+        "imageSm": "IMG_0310_s.jpg",
+        "imageLg": "IMG_0310.jpg",
+        "caption": null,
+        "location": "living room, dining room",
+        "projId": "fun-family-room",
+        "tags": "custom furniture, window treatments"
+    }, {
+        "imageSm": "IMG_0320_s.jpg",
+        "imageLg": "IMG_0320.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "fun-family-room",
+        "tags": "stone, millwork, window treatments"
+    }, {
+        "imageSm": "IMG_0325_s.jpg",
+        "imageLg": "IMG_0325.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "fun-family-room",
+        "tags": "window treatments"
+	}, {
+        "imageSm": "IMG_0443_s.jpg",
+        "imageLg": "IMG_0443.jpg",
+        "caption": null,
+        "location": "library",
+        "projId": "gentlemans-library",
+        "tags": "millwork, cabinetry, custom furniture, window treatments"
+    }, {
+        "imageSm": "IMG_0462_s.jpg",
+        "imageLg": "IMG_0462.jpg",
+        "caption": null,
+        "location": "library",
+        "projId": "gentlemans-library",
+        "tags": "window treatments, millwork"
+    }, {
+        "imageSm": "IMG_0478_s.jpg",
+        "imageLg": "IMG_0478.jpg",
+        "caption": null,
+        "location": "library",
+        "projId": "gentlemans-library",
+        "tags": "custom furniture, cabinetry, window treatments, art collection"
+	}, {
+        "imageSm": "IMG_0502_s.jpg",
+        "imageLg": "IMG_0502.jpg",
+        "caption": null,
+        "location": "dressing room",
+        "projId": "sophisticated-dressing-room",
+        "tags": "cabinetry, custom furniture, window treatments, lighting"
+    }, {
+        "imageSm": "IMG_0522_s.jpg",
+        "imageLg": "IMG_0522.jpg",
+        "caption": null,
+        "location": "dressing room",
+        "projId": "sophisticated-dressing-room",
+        "tags": "cabinetry, lighting"
+	}, {
+        "imageSm": "IMG_0367_s.jpg",
+        "imageLg": "IMG_0367.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "elegant-living-room",
+        "tags": "entertainment, millwork, custom furniture, lighting, window treatments"
+    }, {
+        "imageSm": "IMG_0368_s.jpg",
+        "imageLg": "IMG_0368.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "elegant-living-room",
+        "tags": "stone, entertainment, custom furniture, window treatments, lighting"
+    }, {
+        "imageSm": "IMG_0377_s.jpg",
+        "imageLg": "IMG_0377.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "elegant-living-room",
+        "tags": "millwork, window treatments, custom furniture"
+	}, {
+        "imageSm": "theater_1b_s.jpg",
+        "imageLg": "theater_1b.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "his-room",
+        "tags": "home theater"
+    }, {
+        "imageSm": "theater_2_s.jpg",
+        "imageLg": "theater_2.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "his-room",
+        "tags": "home theater"
+    }, {
+        "imageSm": "theater_3_s.jpg",
+        "imageLg": "theater_3.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "his-room",
+        "tags": null
+	}, {
+        "imageSm": "IMG_9038_s.jpg",
+        "imageLg": "IMG_9038.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "musical-living-room",
+        "tags": "cabinetry, lighting, window treatments, custom furniture"
+    }, {
+        "imageSm": "IMG_9072_s.jpg",
+        "imageLg": "IMG_9072.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "musical-living-room",
+        "tags": "cabinetry, lighting, window treatments, custom furniture"
+    }, {
+        "imageSm": "IMG_9077_s.jpg",
+        "imageLg": "IMG_9077.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "musical-living-room",
+        "tags": "window treatments"
+	}, {
+        "imageSm": "IMG_9218_s.jpg",
+        "imageLg": "IMG_9218.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "spa-and-pool",
+        "tags": "lighting, wood, tile, glass, cabinetry"
+    }, {
+        "imageSm": "IMG_9240_s.jpg",
+        "imageLg": "IMG_9240.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "spa-and-pool",
+        "tags": "glass, tile, lighting, cabinetry, stone, custom furniture"
+    }, {
+        "imageSm": "IMG_9255_s.jpg",
+        "imageLg": "IMG_9255.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "spa-and-pool",
+        "tags": "tile, stone, glass, lighting, cabinetry"
+    }, {
+        "imageSm": "IMG_9263_s.jpg",
+        "imageLg": "IMG_9263.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "spa-and-pool",
+        "tags": "tile, floors"
+    }, {
+        "imageSm": "IMG_9273b_s.jpg",
+        "imageLg": "IMG_9273b.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "spa-and-pool",
+        "tags": "glass, stone, tile"
+    }, {
+        "imageSm": "IMG_9283_s.jpg",
+        "imageLg": "IMG_9283.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "spa-and-pool",
+        "tags": "glass, tile"
+	}, {
+        "imageSm": "1_s.jpg",
+        "imageLg": "1.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "regal-bedroom",
+        "tags": "window treatments, bedding"
+    }, {
+        "imageSm": "2_s.jpg",
+        "imageLg": "2.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "regal-bedroom",
+        "tags": "cabinetry"
+	}, {
+        "imageSm": "IMG_1590_s.jpg",
+        "imageLg": "IMG_1590.jpg",
+        "caption": null,
+        "location": "office, library",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, cabinetry, custom furniture"
+    }, {
+        "imageSm": "IMG_1618_s.jpg",
+        "imageLg": "IMG_1618.jpg",
+        "caption": null,
+        "location": "office, library",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, cabinetry, custom furniture"
+    }, {
+        "imageSm": "IMG_1639_s.jpg",
+        "imageLg": "IMG_1639.jpg",
+        "caption": null,
+        "location": "office, library",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, cabinetry, custom furniture"
+    }, {
+        "imageSm": "IMG_1659b_s.jpg",
+        "imageLg": "IMG_1659b.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "midcentury-modern-home",
+        "tags": null
+    }, {
+        "imageSm": "IMG_1698_s.jpg",
+        "imageLg": "IMG_1698.jpg",
+        "caption": null,
+        "location": "dining room, living room",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, cabinetry, custom furniture, lighting, art collection"
+    }, {
+        "imageSm": "IMG_1721b_s.jpg",
+        "imageLg": "IMG_1721b.jpg",
+        "caption": null,
+        "location": "dining room, living room",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, lighting, art collection"
+    }, {
+        "imageSm": "IMG_1735_s.jpg",
+        "imageLg": "IMG_1735.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "midcentury-modern-home",
+        "tags": "stone, cabinetry, concrete"
+    }, {
+        "imageSm": "IMG_1746_s.jpg",
+        "imageLg": "IMG_1746.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "midcentury-modern-home",
+        "tags": "stone, cabinetry, concrete"
+    }, {
+        "imageSm": "IMG_1775_s.jpg",
+        "imageLg": "IMG_1775.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "midcentury-modern-home",
+        "tags": "lighting, cabinetry, art collection"
+    }, {
+        "imageSm": "IMG_1797_s.jpg",
+        "imageLg": "IMG_1797.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "midcentury-modern-home",
+        "tags": "bedding, concrete, floors, art collection"
+    }, {
+        "imageSm": "IMG_1806_s.jpg",
+        "imageLg": "IMG_1806.jpg",
+        "caption": null,
+        "location": "master bathroom",
+        "projId": "midcentury-modern-home",
+        "tags": "glass, concrete, floors, tile, cabinetry, lighting"
+    }, {
+        "imageSm": "IMG_1814_s.jpg",
+        "imageLg": "IMG_1814.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "midcentury-modern-home",
+        "tags": null
+    }, {
+        "imageSm": "IMG_1824_s.jpg",
+        "imageLg": "IMG_1824.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "midcentury-modern-home",
+        "tags": null
+    }, {
+        "imageSm": "IMG_1852_s.jpg",
+        "imageLg": "IMG_1852.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, custom furniture, lighting"
+    }, {
+        "imageSm": "IMG_1872_s.jpg",
+        "imageLg": "IMG_1872.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "midcentury-modern-home",
+        "tags": "concrete, stone, cabinetry, lighting, art collection"
+    }, {
+        "imageSm": "IMG_2712_s.jpg",
+        "imageLg": "IMG_2712.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "midcentury-modern-home",
+        "tags": "patio, landscaping"
+    }, {
+        "imageSm": "IMG_2777_s.jpg",
+        "imageLg": "IMG_2777.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "midcentury-modern-home",
+        "tags": "patio, landscaping, lighting"
+    }, {
+        "imageSm": "IMG_2795_s.jpg",
+        "imageLg": "IMG_2795.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "midcentury-modern-home",
+        "tags": "patio, landscaping"
+    }, {
+        "imageSm": "IMG_2812_s.jpg",
+        "imageLg": "IMG_2812.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "midcentury-modern-home",
+        "tags": "patio, landscaping, lighting"
+    }, {
+        "imageSm": "IMG_2881_s.jpg",
+        "imageLg": "IMG_2881.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "midcentury-modern-home",
+        "tags": "patio, landscaping"
+    }, {
+        "imageSm": "IMG_2889_s.jpg",
+        "imageLg": "IMG_2889.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "midcentury-modern-home",
+        "tags": "patio, landscaping, art collection"
+	}, {
+        "imageSm": null,
+        "imageLg": "05_5397_2018-02-23_Joanne Balaban Designs_HDR_1.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "florida-oasis",
+        "imageTagss": "lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "06_5423_2018-02-23_Joanne Balaban Designs_HDR_1e FINAL__PSD (rug rotated.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "florida-oasis",
+        "tags": "art collection, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "07_5412_2018-02-23_Joanne Balaban Designs_HDR_1.jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "florida-oasis",
+        "tags": "art collection, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "08_5347b_2018-02-23_Joanne Balaban Designs_HDR (updated original).jpg",
+        "caption": null,
+        "location": "foyer",
+        "projId": "florida-oasis",
+        "tags": "entertainment, glass, custom furniture, art collection, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "09_5369b_2018-02-23_Joanne Balaban Designs_HDR_1b_PSD.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "florida-oasis",
+        "tags": "entertainment, floors, lighting, glass"
+    }, {
+        "imageSm": null,
+        "imageLg": "10_5433_2018-02-23_Joanne Balaban Designs_HDR__PSD.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "florida-oasis",
+        "tags": "glass"
+    }, {
+        "imageSm": null,
+        "imageLg": "11_5383b_2018-02-23_Joanne Balaban Designs_HDR_1 (updated original).jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "florida-oasis",
+        "tags": "entertainment, lighting, glass, custom furniture, window treatments"
+    }, {
+        "imageSm": null,
+        "imageLg": "13_5439b_2018-02-23_Joanne Balaban Designs_HDR__PSD-1b.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "florida-oasis",
+        "tags": "glass, lighting, custom furniture, window treatments, stone, cabinetry, art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "14_5463_2018-02-23_Joanne Balaban Designs_HDR.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "florida-oasis",
+        "tags": "glass, custom furniture, lighting, window treatments, stone, art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "15_5467_2018-02-23_Joanne Balaban Designs_HDR.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "florida-oasis",
+        "tags": "lighting, glass, custom furniture, window treatments, stone"
+    }, {
+        "imageSm": null,
+        "imageLg": "16_5471_2018-02-23_Joanne Balaban Designs_HDR.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "florida-oasis",
+        "tags": "glass, stone, lighting, custom furniture, window treatments, cabinetry, art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "17_5540b_2018-02-23_Joanne Balaban Designs-JPG-1b-8.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "florida-oasis",
+        "tags": "wood, metal, stone, glass, tile, cabinetry"
+    }, {
+        "imageSm": null,
+        "imageLg": "18_5526b_2018-02-23_Joanne Balaban Designs_HDR-1b.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "florida-oasis",
+        "tags": "stone, glass, wood, tile, cabinetry, metal, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "19_5492b_2018-02-23_Joanne Balaban Designs_HDR v2 for perspective-1b.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "florida-oasis",
+        "tags": "glass, stone, wood, metal, tile"
+    }, {
+        "imageSm": null,
+        "imageLg": "20_5565_2018-02-23_Joanne Balaban Designs_HDR_1.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "florida-oasis",
+        "tags": "lighting, window treatments, upholstery, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "22_5630b_2018-02-23_Joanne Balaban Designs_HDR (updated original).jpg",
+        "caption": null,
+        "location": "family room",
+        "projId": "florida-oasis",
+        "tags": "metal, lighting, custom furniture, upholstery, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "23_5572_2018-02-23_Joanne Balaban Designs_HDR_1.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "24_5593_2018-02-23_Joanne Balaban Designs_HDR__PSD.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "25_5618b_2018-02-23_Joanne Balaban Designs_HDR (updated original).jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "26_5623_2018-02-23_Joanne Balaban Designs_HDR.jpg",
+        "caption": null,
+        "location": "family room",
+        "projId": "florida-oasis",
+        "tags": "bar"
+    }, {
+        "imageSm": null,
+        "imageLg": "28_5654b_2018-02-23_Joanne Balaban Designs_HDR-1b.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "29_5644_2018-02-23_Joanne Balaban Designs_HDR.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "florida-oasis",
+        "tags": "lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "30_5635_2018-02-23_Joanne Balaban Designs_HDR.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "florida-oasis",
+        "tags": "upholstery"
+    }, {
+        "imageSm": null,
+        "imageLg": "01_5308_2018-02-23_Joanne Balaban Designs_HDR__PSD.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "02_5333_2018-02-23_Joanne Balaban Designs_HDR__PSD.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": "metal, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "03_5662_2018-02-23_Joanne Balaban Designs_HDR__PSD.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": "metal, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "04_5340_2018-02-23_Joanne Balaban Designs_HDR_1.jpg",
+        "caption": null,
+        "location": "exterior",
+        "projId": "florida-oasis",
+        "tags": "metal, lighting, glass"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0515.jpg",
+        "caption": null,
+        "location": "living room, dining room, kitchen",
+        "projId": "family-beach-retreat",
+        "tags": "upholstery, art collection, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0519.jpg",
+        "caption": null,
+        "location": "living room, dining room, kitchen",
+        "projId": "family-beach-retreat",
+        "tags": "upholstery, art collection, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0539.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "family-beach-retreat",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0555.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "family-beach-retreat",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0561.jpg",
+        "caption": null,
+        "location": "kitchen, dining room",
+        "projId": "family-beach-retreat",
+        "tags": "floors, upholstery, lighting, art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0569.jpg",
+        "caption": null,
+        "location": "kitchen, dining room",
+        "projId": "family-beach-retreat",
+        "tags": "floors, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0585.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "family-beach-retreat",
+        "tags": "art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0595.jpg",
+        "caption": null,
+        "location": "dining room, living room, kitchen",
+        "projId": "family-beach-retreat",
+        "tags": "floors, upholstery, lighting, art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0604.jpg",
+        "caption": null,
+        "location": "kitchen, dining room",
+        "projId": "family-beach-retreat",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0620 (1).jpg",
+        "caption": null,
+        "location": "bedroom",
+        "projId": "family-beach-retreat",
+        "tags": "custom furniture, bedding, floors, lighting"
+	}, {
+        "imageSm": null,
+        "imageLg": "IMG-0625.jpg",
+        "caption": null,
+        "location": "bedroom",
+        "projId": "family-beach-retreat",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0633.jpg",
+        "caption": null,
+        "location": "bedroom",
+        "projId": "family-beach-retreat",
+        "tags": "bedding, lighting, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0641.jpg",
+        "caption": null,
+        "location": "dressing room, bedroom",
+        "projId": "family-beach-retreat",
+        "tags": "custom furniture, lighting, floors, upholstery"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-0647.jpg",
+        "caption": null,
+        "location": "bedroom, dressing room",
+        "projId": "family-beach-retreat",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "_AM_1165.jpg",
+        "caption": null,
+        "location": "office",
+        "projId": "family-beach-retreat",
+        "tags": "cabinetry, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1867.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "escape-the-world",
+        "tags": "lighting, custom furniture, window treatments, upholstery, bedding, cabinetry"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1879.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "escape-the-world",
+        "tags": "window treatments, bedding, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1898.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "escape-the-world",
+        "tags": "custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1903.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "escape-the-world",
+        "tags": "custom furniture, bedding, window treatments, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1917.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "escape-the-world",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1923.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "escape-the-world",
+        "tags": "window treatments"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1796.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "cabinetry, custom furniture, stone, lighting, tile"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1798.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "glass, lighting, cabinetry, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1804.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "cabinetry, stone, tile, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1816.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "tile, lighting, floors, glass, stone"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1824.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "imageTagss": "stone, tile"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1825.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "lighting, tile, stone"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1833.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "stone, tile, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1848.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "escape-the-world",
+        "tags": "lighting, cabinetry, custom furniture, tile, stone, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "_MG_5072.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "contemporary-suburban-living",
+        "tags": "glass, cabinetry, stone, tile, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_60.jpg",
+        "caption": null,
+        "location": "kitchen",
+        "projId": "contemporary-suburban-living",
+        "tags": "glass, cabinetry, stone, tile, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_84.jpg",
+        "caption": null,
+        "location": "dining room, kitchen",
+        "projId": "contemporary-suburban-living",
+        "tags": "glass, cabinetry, stone, tile, lighting, art collection, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_97.jpg",
+        "caption": null,
+        "location": "recreation room, kitchen, dining room",
+        "projId": "contemporary-suburban-living",
+        "tags": "glass, cabinetry, stone, tile, lighting, entertainment, art collection, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_112.jpg",
+        "caption": null,
+        "location": "recreation room",
+        "projId": "contemporary-suburban-living",
+        "tags": "entertainment, cabinetry, bar"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_125c.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "contemporary-suburban-living",
+        "tags": "custom furniture, art collection, doors, tile, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_139 (2).jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "contemporary-suburban-living",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_150.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "contemporary-suburban-living",
+        "tags": "custom furniture, lighting, metal, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_159.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "contemporary-suburban-living",
+        "tags": "custom furniture, lighting, metal, floors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_177.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "contemporary-suburban-living",
+        "tags": "wood, custom furniture, lighting, metal, floors"
+	}, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_187.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "contemporary-suburban-living",
+        "tags": "custom furniture, doors, cabinetry, floors, tile"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_202b.jpg",
+        "caption": null,
+        "location": "office",
+        "projId": "contemporary-suburban-living",
+        "tags": "tile, doors"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_9999_232.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "contemporary-suburban-living",
+        "tags": "glass, cabinetry"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1855.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "handsome-transitional-home",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1866.jpg",
+        "caption": null,
+        "location": "living room",
+        "projId": "handsome-transitional-home",
+        "tags": "window treatments, custom furniture, art collection"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1874.jpg",
+        "caption": null,
+        "location": "master bedroom",
+        "projId": "handsome-transitional-home",
+        "tags": "window treatments, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1889.jpg",
+        "caption": null,
+        "location": "master bathroom",
+        "projId": "handsome-transitional-home",
+        "tags": "stone, lighting, glass"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1901.jpg",
+        "caption": null,
+        "location": "kitchen, living room",
+        "projId": "handsome-transitional-home",
+        "imageTagss": "stone, window treatments, custom furniture, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1920.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "handsome-transitional-home",
+        "tags": "floors, cabinetry, custom furniture, lighting, metal"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1944.jpg",
+        "caption": null,
+        "location": "foyer, dining room",
+        "projId": "handsome-transitional-home",
+        "tags": "floors, cabinetry, doors, custom furniture, lighting, metal"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1953b.jpg",
+        "caption": null,
+        "location": "dining room",
+        "projId": "handsome-transitional-home",
+        "tags": "floors, window treatments, cabinetry, custom furniture, lighting, metal"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1961.jpg",
+        "caption": null,
+        "location": "office",
+        "projId": "handsome-transitional-home",
+        "tags": "entertainment, cabinetry, custom furniture"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1974b.jpg",
+        "caption": null,
+        "location": "office",
+        "projId": "handsome-transitional-home",
+        "tags": null
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1986.jpg",
+        "caption": null,
+        "location": "bathroom",
+        "projId": "handsome-transitional-home",
+        "tags": "cabinetry, stone, lighting"
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG_1098.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Martini",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 3,
+            "total": 3
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1515.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Looking at the Sun",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 7,
+            "total": 7
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1531.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Kimono",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 6,
+            "total": 6
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1550.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Fluid Copper Spring",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 2,
+            "total": 2
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1565.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Violet Dream",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 6,
+            "total": 6
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-1595.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Tangled in Time",
+        "specs": {
+            "size": {
+                "width": "43\"",
+                "height": "21\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-2226.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Dive In",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-2230 Final.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Ethereal Earth",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 3,
+            "total": 3
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-2242final.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Swimming Toward the Light",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 4,
+            "total": 4
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3068.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Poppy Fields",
+        "specs": {
+            "size": {
+                "width": "12\"",
+                "height": "48\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3073.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Blurr the Line",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 3,
+            "total": 3
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3080.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Fiery Sunset",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 3,
+            "total": 3
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3086.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Pinwheel",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 4,
+            "total": 4
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3092.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Le Bouquet",
+        "specs": {
+            "size": {
+                "width": "12\"",
+                "height": "48\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3094.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Tower of Flowers",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "&amp; 18\" x 9\" each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 5,
+            "total": 5
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3098.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Sunset Road",
+        "specs": {
+            "size": {
+                "width": "12\"",
+                "height": "36\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 2,
+            "total": 2
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "IMG-3099.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Heart of Gold",
+        "specs": {
+            "size": {
+                "width": "12\"",
+                "height": "12\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "Untitled-1.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Distant Shore",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 4,
+            "total": 4
+        }
+	}, {
+        "imageSm": null,
+        "imageLg": "Untitled-2.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Essence of Shadow",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 2,
+            "total": 2
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "Untitled-3.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Autumn Slide",
+        "specs": {
+            "size": {
+                "width": "12\"",
+                "height": "48\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "Untitled-4.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Summer Slide",
+        "specs": {
+            "size": {
+                "width": "12\"",
+                "height": "48\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 1,
+            "total": 1
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "Untitled-5.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "Blue Lagoon",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 4,
+            "total": 4
+        }
+    }, {
+        "imageSm": null,
+        "imageLg": "Untitled-6.jpg",
+        "caption": null,
+        "location": null,
+        "projId": "jbolen-artwork",
+        "tags": null,
+        "name": "The Philosophy of Fire",
+        "specs": {
+            "size": {
+                "width": "18\"",
+                "height": "18\""
+            },
+            "description": "each piece contains 2 tempered glass panels, acrylic paint, and framed in metal"
+        },
+        "copies": {
+            "remaining": 5,
+            "total": 5
+        }
+    }]
+}

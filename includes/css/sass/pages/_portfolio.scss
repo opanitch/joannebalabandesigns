@@ -1,0 +1,140 @@
+.jbd-portfolio {
+
+    &-container {
+        margin-top: 75px;
+        padding: 18px 0 0;
+
+        @include responsive(tablet) {
+            margin-top: 178px;
+        }
+    }
+
+    &-tags {
+        padding: 0 0 50px;
+
+        &-title {
+            margin: 0 0 8px;
+            padding: 0 0 8px;
+            border-bottom: 1px solid $white;
+            font-family: $big-caslon;
+            font-size: $font-size-h3;
+            font-weight: $font-weight-regular;
+            line-height: 2.22;
+            color: $white;
+        }
+
+        &-list {
+            height: 75px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+            transition: height 0.5s ease-in-out;
+
+            &.is-open {
+                height: auto;
+            }
+
+            &-cta {
+                // display: none;
+                
+                // @include responsive(tablet) {
+                    margin-top: 10px;
+                    display: block;
+                    text-align: right;
+                // }
+            }
+        }
+
+        &-item {
+            margin: 0 5px 5px 0;
+        }
+
+        &-link {
+            padding: 7px 10px;
+            color: $gold;
+
+            &:hover {
+                padding: 7px 10px;
+            }
+
+            &:hover,
+            &.active {
+                background-color: $gold;
+                color: $black;
+            }
+        }
+
+        &-clear {
+            padding: 7px 10px;
+
+            &:hover {
+                padding: 5px 10px 9px;
+            }
+
+            &.is-disabled {
+                opacity: 0.75;
+            }
+        }
+    }
+    
+    &-content {
+        padding-bottom: 20px;
+    }
+
+    &-item {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        & + & {
+            margin-top: 50px;
+        }
+
+        &-hero {
+            width: 100%;
+            max-width: 850px;
+            height: 350px;
+            margin: 0 auto;
+            position: relative;
+            background-color: $black-transparent-50;
+            overflow: hidden;
+        }
+
+        &-image {
+            width: 100%;
+            display: block;
+        }
+
+        &-cta {
+            position: absolute;
+            top: 275px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &-details {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-title {
+            font-size: $font-size-h3;
+            line-height: 2.222;
+            color: $white;
+        }
+
+        &-location {
+            font-size: $font-size-body--small;
+            line-height: 2.18;
+            color: $white;
+        }
+    }
+
+    &-no-match {
+        padding-bottom: 70px;
+    }
+}

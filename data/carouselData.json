@@ -1,0 +1,55 @@
+{
+    "carousel": [{
+        "id": "homepage",
+        "transitionTime": 2,
+        "slides": [{
+            "title": "A Mid-Century Modern Home",
+            "description": "A complete renovation was required to bring this home up to current lifestyle & code standards. From inception through completion, this project required hands on project management, including selection of all interior & exterior finishes, selection & oversight of all contractors & artisans",
+            "id": "midcentury-modern-home",
+            "publication": {
+                "title": "Concrete News",
+                "url": null
+            },
+            "images": [{
+                "title": "Test 1a",
+                "src": "IMG_1698_s.jpg"
+            }, {
+                "title": "Test 2a",
+                "src": "IMG_1852_s.jpg"
+            }, {
+                "title": "Test 3a",
+                "src": "IMG_1735_s.jpg"
+            }]
+        }, {
+            "title": "Florida Oasis",
+            "description": "Designed as a complete rejuvenation with a high-level of customization, this 1990’s home takes on a new life in the modern age of art and accessibility. Updated with an emphasis on nuanced, natural detailing, this organic inspired oasis now features an exotic, Wild Agate",
+            "id": "florida-oasis",
+            "publication": null,
+            "images": [{
+                "title": "Test 1b",
+                "src": "22_5630b_2018-02-23_Joanne Balaban Designs_HDR (updated original).jpg"
+            }, {
+                "title": "Test 2b",
+                "src": "11_5383b_2018-02-23_Joanne Balaban Designs_HDR_1 (updated original).jpg"
+            }, {
+                "title": "Test 3b",
+                "src": "16_5471_2018-02-23_Joanne Balaban Designs_HDR.jpg"
+            }]
+        }, {
+            "title": "Handsome Transitional Home",
+            "description": "Adorned to be adored, this home was customized to reflect the lifestyle and taste of its new owner. Designed with new detailing, custom metal railings along the steps and second floor overlook, lead you the guest rooms & living space",
+            "id": "handsome-transitional-home",
+            "publication": null,
+            "images": [{
+                "title": "Test 1c",
+                "src": "IMG-1874.jpg"
+            }, {
+                "title": "Test 2c",
+                "src": "IMG-1974b.jpg"
+            }, {
+                "title": "Test 3c",
+                "src": "IMG-1855.jpg"
+            }]
+        }]
+    }]
+}

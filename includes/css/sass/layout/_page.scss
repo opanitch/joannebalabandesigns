@@ -1,0 +1,24 @@
+.jbd-page-container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+
+    &--full-width {
+        max-width: 100%;
+    }
+
+    &--main {
+        background-color: $bunker;
+    }
+
+    &--vert-padding {
+        padding: 20px 0;
+
+        &-small {
+            padding: 10px 0;
+        }
+    }
+}

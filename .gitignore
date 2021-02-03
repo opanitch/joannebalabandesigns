@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Additional Ignores
+cgi_bin/
+error_log
+files/
+oren files/

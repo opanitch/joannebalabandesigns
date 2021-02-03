@@ -1,0 +1,19 @@
+.jbd-icon {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    position: relative;
+
+    &-fill {
+
+        &--green,
+        &--success {
+            fill: $jungle-green;
+        }
+
+        &--red,
+        &--error {
+            fill: $carnation;
+        }
+    }
+}

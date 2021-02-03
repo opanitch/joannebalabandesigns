@@ -1,0 +1,21 @@
+%hidden {
+    display: none;
+}
+
+%accessible {
+    position: absolute !important;
+    display: block;
+    visibility: visible;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+}
+
+// Icon/Shape Placeholders
+%loading-indicator-default {
+    @include loading-indicator($color-1: $white, $color-2: $gold, $color-3: $gold);
+}

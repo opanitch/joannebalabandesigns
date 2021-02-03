@@ -1,0 +1,53 @@
+{
+  "name": "joannebalabandesigns",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Oren Panitch",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build:local": "npm install && npm run local",
+    "build:production": "npm run build:production"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autopolyfiller": "^1.2.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-changed-in-place": "2.0.3",
+    "gulp-concat": "2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-eslint": "3.0.1",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jest": "0.6.0",
+    "gulp-myth": "^1.1.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-sass-lint": "1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "sasslintConfig": "./.sass-lint.yml",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "coverageReporters": [
+      "html"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./node_modules",
+      "./includes/js/plugins"
+    ],
+    "testPathIgnorePatterns": [
+      "./node_modules",
+      "./includes/js/plugins"
+    ]
+  }
+}

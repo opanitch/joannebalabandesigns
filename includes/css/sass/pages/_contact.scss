@@ -1,0 +1,60 @@
+.jbd-contact {
+    max-width: 800px;
+    min-width: 420px;
+    padding: 20px;
+    background-color: $black;
+
+    @include responsive(desktop) {
+        min-width: 700px;
+        padding: 40px 80px;
+    }
+
+    &-details {
+        margin-bottom: 30px;
+        text-align: right;
+    }
+
+    &-number {
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+
+        &-link {
+            color: $white;
+        }
+    }
+
+    &-email {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+
+        &-inputs {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        &-actions {
+            width: 100%;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+
+            .jbd-btn + .jbd-btn {
+                margin-left: 10px;
+            }
+        }
+    }
+}

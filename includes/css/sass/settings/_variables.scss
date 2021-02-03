@@ -1,0 +1,102 @@
+/**
+ * Colors
+ */
+$black: #000;
+$black-transparent-80: rgba($black, 0.80);
+$black-transparent-75: rgba($black, 0.75);
+$black-transparent-50: rgba($black, 0.50);
+$bunker: #0a0e12;
+$bunker-transparent-80: rgba($bunker, 0.8);
+$white: #fff;
+$white-transparent-85: rgba($white, 0.85);
+$white-transparent-75: rgba($white, 0.75);
+$white-transparent-50: rgba($white, 0.50);
+$white-transparent: rgba($white, 0);
+$gold: #f7ac36;
+$gold-transparent-75: rgba($gold, 0.75);
+$tundora: #4a4a4a;
+$emperor: #555;
+$dove-gray: #666;
+$dusty-gray: #999;
+$gray: #d7d7d7;
+$carnation: #F55555;
+$jungle-green: #26A964;
+
+/**
+ * Images
+ */
+$texture-background: "/includes/images/backgrounds/binding_dark_@2X.png";
+
+/**
+ * Icons
+ */
+$filled-arrow-black: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 6'><g stroke='none' stroke-width='1' fill='#{$black}' fill-rule='evenodd'> <polygon points='0 0 5.50024776 6 11 0' /></g></svg>";
+$dropdown-arrow-yellow: "<svg viewBox='0 0 9 9' xmlns='http://www.w3.org/2000/svg'><g stroke='none' stroke-width='1' fill-rule='evenodd' transform='translate(-502.000000, -102.000000)' fill='#{$gold}'><path d='M507.390532,102.829508 L509.939422,107.92729 C510.309906,108.668257 510.00957,109.569267 509.268602,109.939751 C509.060319,110.043892 508.830649,110.09811 508.597781,110.09811 L503.5,110.09811 C502.671573,110.09811 502,109.426537 502,108.59811 C502,108.365242 502.054218,108.135573 502.158359,107.92729 L504.70725,102.829508 C505.077734,102.08854 505.978743,101.788204 506.719711,102.158688 C507.010002,102.303833 507.245386,102.539217 507.390532,102.829508 Z' transform='translate(506.049055, 106.049055) rotate(180.000000) translate(-506.049055, -106.049055)' /></g></svg>";
+$carousel-content-bg: "<svg width='480px' height='535px' viewBox='0 0 480 535' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'><g fill='#{$white}' fill-opacity='0.8' fill-rule='evenodd'><polygon points='0,83.61294555664062 480,0 422.3529357910156,535 0,535' /></g></svg>";
+
+/**
+ * Font Styles
+ */
+$base-font-size: 16px;
+// Size
+$font-size-h1: em(40px);
+$font-size-h1-mobile: em(30px);
+$font-size-h2: em(24px);
+$font-size-h3: em(18px);
+$font-size-h4: em(16px);
+$font-size-body: em(14px);
+$font-size-body--small: em(11px);
+
+// Colors
+$font-color-h1: $black;
+$font-color-h2: $black;
+$font-color-h3: $black;
+$font-color-h4: $black;
+$font-color-body: $black;
+
+// Family
+$commonFont: "Helvetica", "Arial", sans-serif;
+$big-caslon: "big-caslon-medium";
+
+// Weight
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+/**
+ * Responsive Widths
+ */
+$width-mobile: 480px;
+$width-large-mobile: 640px;
+$width-tablet: 768px;
+$width-desktop-small: 960px;
+$width-desktop: 1024px;
+$width-large-desktop: 1200px;
+
+/**
+ * Animation Keyframes
+ */
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}

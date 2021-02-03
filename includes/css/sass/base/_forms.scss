@@ -1,0 +1,86 @@
+$formPadding: 20px;
+
+.jbd-form {
+
+    &[disable] {
+        background-color: $gray;
+    }
+
+    &-field {
+        width: 100%;
+        position: relative;
+        transition: border-color 0.5s ease-in-out;
+
+        & + & {
+            margin-top: 20px;
+        }
+
+        &--error {
+
+            .jbd-form-input--textbox,
+            .jbd-form-input--textarea {
+                border-color: $carnation;
+            }
+        }
+    }
+
+    &-input {
+        font-family: inherit;
+        font-size: $font-size-body;
+        line-height: 1.2;
+
+        &:focus {
+            outline: $gold;
+
+            & + .jbd-form-label {
+                display: none;
+            }
+        }
+
+        &--textbox,
+        &--textarea {
+            width: 100%;
+            margin: 0;
+            padding: $formPadding;
+            border-width: 2px;
+            border-style: solid;
+            border-color: transparent;
+            background-color: $white;
+
+            & + .jbd-form-label {
+                position: absolute;
+                top: calc(50% - 11px);
+                left: $formPadding;
+            }
+        }
+
+        &--textarea {
+            min-height: 130px;
+            line-height: 1;
+            resize: none;
+            overflow: auto;
+
+            @include responsive(desktop) {
+                min-height: 180px;
+            }
+
+            & + .jbd-form-label {
+                top: $formPadding;
+            }
+        }
+    }
+
+    &-label {
+        margin-bottom: 4px;
+        display: inline-block;
+        font-size: $font-size-body;
+        line-height: 1.5;
+        text-transform: uppercase;
+        text-align: left;
+        color: $tundora;
+
+        &--sub {
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,0 +1,195 @@
+.jbd-ts {
+
+    &-container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    &-navigation {
+        /* We don't want internal inline elements to wrap */
+        white-space: nowrap;
+        background-color: $gold;
+
+        &-list {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            counter-reset: item;
+            
+            @include responsive("tablet") {
+                max-width: 815px;
+            }
+        }
+
+        &-item {
+            padding: 15px 0;
+            counter-increment: item;
+
+            & + & {
+                margin-left: 25px;
+            }
+
+            &::before {
+                content: "0" counter(item) ".";
+                font-weight: $font-weight-bold;
+            }
+
+            &:nth-child(n+10)::before {
+              content: counter(item)".";
+            }
+
+            &.active {
+                position: relative;
+
+                &::after {
+                    width: 100%;
+                    height: 7px;
+                    position: absolute;
+                    top: calc(100% - 3px);
+                    left: 0;
+                    background-color: $white;
+                    content: "";
+                }
+            }
+        }
+
+        &-btn {
+            font-size: $font-size-body;
+        }
+    }
+
+    &-body {
+        max-width: 815px;
+        margin: 20px auto 0;
+        padding: 5px 25px 20px;
+        position: relative;
+        border: 0;
+        border-color: $gold;
+        border-style: solid;
+        
+        @include responsive("tablet") {
+            margin-top: 50px;
+            padding: 5px 0 20px 50px;
+            border-left-width: 1px;
+        }
+
+        &-controls {
+            width: 100%;
+            position: absolute;
+            top: 85px;
+            left: 0;
+            z-index: 10;
+            text-align: center;
+
+            @include responsive("tablet") {
+                width: auto;
+                top: 50px;
+                left: auto;
+                right: 20px;
+                text-align: left;
+            }
+            
+            @include responsive("large-desktop") {
+                right: 0;
+            }
+
+            &-container {
+                width: 100%;
+                height: 0;
+                position: relative;
+            }
+        }
+
+        &-btn {
+            width: 33px;
+            height: 33px;
+            padding: 20px;
+            position: relative;
+            border-radius: 3px;
+            background-color: $gold;
+            background-image: svg-url($filled-arrow-black);
+            background-repeat: no-repeat;
+            background-size: 12px;
+            background-position: center center;
+
+            &:hover {
+                padding: 20px;
+            }
+
+            &--left {
+                transform: rotate(90deg);
+            }
+
+            &--right {
+                transform: rotate(-90deg);
+            }
+
+            &.disabled {
+                opacity: 0.5;
+                cursor: default;
+            }
+        }
+
+        &-section {
+            position: relative;
+        }
+
+        &-title {
+            margin-bottom: 80px;
+            font-family: $big-caslon;
+            font-size: $font-size-h1;
+            text-align: center;
+            color: $white;
+
+            @include responsive("tablet") {
+                margin-bottom: 30px;
+            }
+        }
+
+        &-copy {
+            max-width: 650px;
+            margin-bottom: 20px;
+            font-size: $font-size-body;
+            line-height: 1.857;
+            color: $white;
+        }
+
+        &-list {
+            margin-bottom: 40px;
+
+            &-item {
+                padding-left: 10%;
+                font-size: $font-size-body;
+                line-height: 1.857;
+                color: $white;
+
+                & + & {
+                    margin-top: 20px;
+                }
+
+                &-topic {
+                    font-weight: $font-weight-bold;
+
+                    &::after {
+                        content: " - ";
+                    }
+                }
+            }
+        }
+
+        &-quote {
+            max-width: 565px;
+            margin: 15px 0;
+            padding: 0 0 0 25px;
+            font-family: $big-caslon;
+            font-size: $font-size-h3;
+            line-height: 1.44;
+            color: $gold;
+        }
+    }
+}

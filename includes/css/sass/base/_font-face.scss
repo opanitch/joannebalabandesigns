@@ -1,0 +1,12 @@
+@mixin big-caslon-medium {
+    @font-face {
+        font-family: "big-caslon-medium";
+        src: url("/includes/css/fonts/big_caslon_medium.woff2") format("woff2"),
+             url("/includes/css/fonts/big_caslon_medium.woff") format("woff");
+        font-weight: $font-weight-regular;
+        font-style: normal;
+    }
+}
+
+// Fonts
+@include big-caslon-medium;

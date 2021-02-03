@@ -1,0 +1,81 @@
+.jbd-footer {
+    background-color: $black;
+    background-image: url($texture-background);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 180px 180px;
+
+    &-container {
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    &-title {
+        margin-bottom: 15px;
+        font-family: $big-caslon;
+        font-size: $font-size-h3;
+        color: $gold;
+    }
+
+    &-contact {
+        margin-bottom: 10px;
+        font-size: $font-size-body;
+        font-weight: $font-weight-light;
+
+        &-link {
+            color: $white;
+
+            & + & {
+                margin-left: 10px;
+                
+                &::before {
+                    content: "|";
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    &-legal {
+        margin-bottom: 25px;
+        font-size: $font-size-body;
+        font-weight: $font-weight-light;
+    }
+
+    &-social {
+
+        &-list {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-item {
+            margin-right: 5px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-link {
+            width: 30px;
+            height: 30px;
+            display: block;
+            background-image: url("/includes/images/sprite.png");
+            background-repeat: no-repeat;
+            background-size: 120px;
+
+            &--fb {
+                background-position: -29px 0;
+            }
+
+            &--ln {
+                background-position: 0 0;
+            }
+
+            &--hz {
+                background-position: -59px 0;
+            }
+        }
+    }
+}

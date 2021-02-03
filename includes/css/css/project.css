@@ -1,0 +1,90 @@
+/**************  Version: 1.0  *******************
+Theme Name: Joanne Balaban Designs - Project Slide
+Theme URI: http://www.joannebalabandesigns.com/css/project.css
+Description: 
+
+Author: Oren Panitch
+Author URI: http://www.opanitch.com
+Supports: IE9+, FF 33+, Chrome 37+, Safari
+*************************************************/
+	.fancybox-skin { padding:15px; overflow:hidden; }
+		.fancybox-close { display:none; }
+
+#spotlight { width:100%; height:100%; position:absolute; top:0%; left:0%; z-index:1; visibility:hidden; }
+	#backbutton { position:absolute; top:5%; left:5%; cursor:pointer; }
+		#backbutton p { padding-left:9px; vertical-align:middle; font-family: 'walkway_condensed_boldregular'; font-size:18px; line-height:22px; letter-spacing:4px; text-transform:uppercase; }
+			#backbutton span.xButton { width:2px; height:20px; margin-right:10px; display:inline-block; vertical-align:middle; position:relative;
+				-webkit-transform:rotate(45deg);
+				-ms-transform:rotate(45deg);
+				-o-transform:rotate(45deg);
+				transform:rotate(45deg); }
+			#backbutton span.xButton:before { width:20px; height:2px; position:absolute; top:9px; left:-9px; content:""; }
+				
+	#spotlightProject { width:100%; height:100%; margin:0 auto; }
+				
+		#spotlightLeft { width:35%; height:100%; padding:0 5%; float:left; font-family:Arial, Helvetica, sans-serif; }
+			#spotContent { width:100%; height:75%; margin:25% 0 0; }
+				#spotContent h1 { padding:0 0 40px; font-size:28px; font-family: 'walkway_condensed_boldregular'; line-height:34px; letter-spacing:4px; text-transform:uppercase; }
+				#spotContent p.projectBody { margin-bottom:45px; font-size:14px; line-height:31px; letter-spacing:1px; }
+				#spotContent p.spotlightLocation { font-size:14px; line-height:31px; letter-spacing:1px; }
+				#publicized { font-size:10px; line-height:14px; letter-spacing:1px; text-transform:uppercase; }
+					#publicized span { font-weight:bold; }
+					#publicized a.magazine { text-decoration:underline; font-weight:bold; }
+					#publicized a.magazine:hover { text-decoration:none; }
+				#spotContent p.photographed { margin-top:5px; font-size:10px; line-height:14px; letter-spacing:1px; text-transform:uppercase; }
+					#spotContent p.photographed span { font-weight:bold; }
+					#spotContent p.photographed a.photographer { text-decoration:underline; font-weight:bold; }
+					#spotContent p.photographed a.photographer:hover { text-decoration:none; }
+					
+				#spotContent a { color:#444; }
+				#imageCaption { margin-top:5px; font-size:10px; line-height:14px; letter-spacing:1px; text-transform:uppercase; display:none; }
+		
+		#spotlightRight { width:65%; height:100%; float:left; }
+			#spotlightCarouselmain { height:83%; margin-bottom:5%; position:relative; }
+				#spotlightCarouselmain div.spotlightItem { height:100%; }
+				#spotlightCarouselmain div.spotlightItem.active { }
+					#spotlightCarouselmain div.spotlightImage { height:100%; position:relative; }
+						#spotlightCarouselmain div.spotlightImage a:hover { opacity:1; }
+							#spotlightCarouselmain div.spotlightImage img { height:100%; display:inline; position:relative; z-index:3; }
+					
+					#spotlightCarouselmain div.spotlightInfo { margin-top:10px; position:absolute; bottom:0; z-index:10; }
+						#spotlightCarouselmain div.spotlightCaption { max-width:50%; padding:20px; background-color:rgba(255,255,255,0.8); }
+							#spotlightCarouselmain div.spotlightCaption p { }
+						#spotlightCarouselmain div.launchBox { }
+							#spotlightCarouselmain div.launchBox a { padding:10px 20px; display:inline-block; font-family: 'walkway_condensed_boldregular'; font-size:16px; line-height:19px; letter-spacing:4px; text-transform:uppercase; text-decoration:none; color:#fff; }
+							
+			#spotlightCarouselnav { height:10%; }
+				#spotlightCarouselnav div.spotlightNavItem { height:100%; margin-right:5px; position:relative; border-width:0px; overflow:hidden;
+						-webkit-transition: all 0.5s ease-in-out;
+						-moz-transition: all 0.5s ease-in-out;
+						-o-transition: all 0.5s ease-in-out;
+						transition: all 0.5s ease-in-out; }
+				#spotlightCarouselnav .synced div.spotlightNavItem { border-width:2px; border-style:solid; }
+					#spotlightCarouselnav div.spotlightNavItem div.overlay { width:100%; min-width:0px; height:100%; min-height:0px; position:absolute; top:0; left:0; z-index:2; background-color:#fff; opacity:0; cursor:pointer;
+						-webkit-transition: all 0.5s ease-in-out;
+						-moz-transition: all 0.5s ease-in-out;
+						-o-transition: all 0.5s ease-in-out;
+						transition: all 0.5s ease-in-out; }
+					#spotlightCarouselnav div.spotlightNavItem:hover div.overlay { opacity:0.6; }
+					#spotlightCarouselnav div.spotlightNavItem p { width:100%; position:relative; z-index:1; }
+						#spotlightCarouselnav div.spotlightNavItem img { width:100%; position:relative; top: 50%;
+							-webkit-transform: translateY(-50%);
+							-moz-transform: translateY(-50%);
+							-ms-transform: translateY(-50%);
+							transform: translateY(-50%); }
+											
+/* Start Mobile Content */
+/* 768px and below */
+@media screen and (max-width: 960px) {		
+			#spotContent { height:75%; margin:75% 0 0; }
+}
+/* 768px and below */
+@media screen and (max-width: 768px) {
+	.fancybox-wrap { width:100% !important; height:100% !important; top:0px !important; left:0px !important; }
+		.fancybox-skin { height:100% !important; padding:0px; }
+			.fancybox-outer { height:100%; }
+				.fancybox-inner { width:100% !important; height:100% !important; }
+					.fancybox-image { height:auto !important; }
+		.fancybox-close { display:block; }
+		
+}

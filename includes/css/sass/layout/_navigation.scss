@@ -1,0 +1,131 @@
+.jbd-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: $black;
+    background-image: url($texture-background);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 180px 180px;
+
+    &-container {
+        padding: 15px 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        @include responsive(desktop) {
+            padding: 12px 45px;
+        }
+    }
+
+    &-logo {
+        width: 150px;
+        height: 39px;
+        display: none;
+
+        @include responsive(tablet) {
+            width: auto;
+            height: 154px;
+            display: block;
+        }
+
+        &--mobile {
+            display: block;
+
+            @include responsive(tablet) {
+                display: none;
+            }
+        }
+    }
+
+	&-nav {
+        font-size: $font-size-h4;
+
+		&-list {
+            display: none;
+            align-items: center;
+            justify-content: flex-end;
+            
+            @include responsive(tablet) {
+                display: flex;
+            }
+
+            &--mobile {
+                display: flex;
+
+                @include responsive(tablet) {
+                    display: none;
+                }
+            }
+		}
+
+		&-item {
+            text-transform: uppercase;
+
+            & + & {
+                margin-left: 25px;
+            }
+
+            &.active {
+                font-weight: $font-weight-bold;
+            }
+		}
+
+		&-link {
+            font-size: $font-size-body;
+            line-height: 1.214;
+        }
+    }
+    
+    &-mobile-nav {
+        width: 274px;
+        height: 100%;
+        padding: 200px 15px 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9;
+        transform: translateX(100%);
+        border-left: 1px solid $gold;
+        background-color: $black;
+        transition: transform 0.5s ease-in-out;
+
+        &--open {
+            transform: translateX(0%);
+        }
+
+        @include responsive(tablet) {
+            display: none;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+		}
+
+		&-item {
+            text-transform: uppercase;
+            text-align: center;
+
+            & + & {
+                margin-top: 25px;
+            }
+
+            &.active {
+                font-weight: $font-weight-bold;
+            }
+		}
+
+		&-link {
+            font-size: $font-size-body;
+            line-height: 1.214;
+        }
+
+        &-btn {
+            width: 100%;
+        }
+    }
+}

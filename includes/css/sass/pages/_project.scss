@@ -1,0 +1,146 @@
+.jbd-project {
+    margin-top: 75px;
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+
+    @include responsive(tablet) {
+        margin-top: 178px;
+    }
+
+    &-title {
+        font-family: $big-caslon;
+        font-size: $font-size-h1;
+        color: $white;
+        text-align: center;
+    }
+
+    &-location {
+        font-size: $font-size-body--small;
+        line-height: 2.18;
+        color: $white;
+        text-align: center;
+    }
+
+    &-hero {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 20px 0;
+        position: relative;
+
+        &-image {
+            width: 100%;
+            position: relative;
+            z-index: 5;
+        }
+
+        &-copy {
+            font-size: $font-size-body;
+            line-height: 1.857;
+            color: $tundora;
+
+            &-container {
+                max-width: 633px;
+                margin: 0 auto;
+                padding: 29px 26px;
+                position: relative;
+                top: -88px;
+                z-index: 10;
+                background-color: $white-transparent-85;
+                box-shadow: 0 2px 2px 0 $black-transparent-50;
+            }
+
+            &-promo,
+            &-details {
+                margin-top: 15px;
+                font-size: $font-size-body--small;
+                line-height: 2.18;
+                color: $emperor;
+            }
+
+            &-promo {
+                font-weight: $font-weight-bold;
+            }
+
+            &-details {
+                font-weight: $font-weight-bold;
+
+                & + & {
+                    margin-top: 0;
+                    font-weight: $font-weight-regular;
+                }
+            }
+        }
+    }
+
+    &-menu {
+        width: 210px;
+        position: absolute;
+        top: 25px;
+        left: -105px;
+        z-index: 10;
+        background-color: $black-transparent-80;
+        box-shadow: 0 2px 4px 0 $black-transparent-50;
+
+        @include responsive(desktop) {
+            left: -190px;
+        }
+
+        &-item {
+            padding: 20px 30px;
+            border-bottom: 1px solid $black;
+
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+
+        &-trigger {
+            width: 100%;
+            padding: 0;
+            font-size: $font-size-body;
+            text-transform: capitalize;
+            color: $white;
+
+            &:hover {
+                padding: 0;
+            }
+        }
+    }
+
+    &-image {
+        max-width: 100%;
+        max-height: 500px;
+        display: inline-block;
+
+        &-list {
+            max-width: 720px;
+            margin: 0 auto;
+
+            &-item {
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: center;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        &-details {
+            margin: 10px 0 40px;
+        }
+
+        &-title {
+            margin-bottom: 10px;
+            font-family: $big-caslon;
+            font-size: $font-size-h2;
+            color: $white;
+        }
+
+        &-specs {
+            color: $white-transparent-85;
+        }
+    }
+}

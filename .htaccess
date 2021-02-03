@@ -1,0 +1,18 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+	order allow,deny
+	deny from all
+</Files>
+
+############################
+# Joanne Balaban Rules #
+############################
+## REWRITE DEFAULTS
+RewriteBase /
+
+# Send projects to SEO friendly URL
+RewriteRule projects\/([^/]*)$ /projects?id=$1 [NC]
+
+# Send all requests to root index for route
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php [QSA,L]
