@@ -1,53 +1,60 @@
 {
   "name": "joannebalabandesigns",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "author": "Oren Panitch",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
+    "build": "ls public/ | grep -v index.html | xargs -I{} rm -rf public/{} && postcss --use postcss-import --use tailwindcss -o ./public/assets/styles.css ./source/styles/app.css && NODE_ENV=production webpack --config ./webpack.config.js --mode production",
     "build:local": "npm install && npm run local",
-    "build:production": "npm run build:production"
+    "build:production": "npm run build:production",
+    "cleaninstall": "rm -rf node_modules/ && rm package-lock.json && npm cache clean --force && npm i",
+    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "start:dev": "webpack-dev-server --inline --hot --progress",
+    "update": "npm ci",
+    "update:deps": "rm -rf node_modules/ && npm cache clean --force && npm i"
   },
   "devDependencies": {
+    "@angular-eslint/eslint-plugin": "^1.2.0",
+    "@angular-eslint/eslint-plugin-template": "^1.2.0",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-decorators": "^7.12.13",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/classnames": "^2.2.11",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
     "del": "^2.0.2",
-    "gulp": "^3.9.0",
-    "gulp-autopolyfiller": "^1.2.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-changed-in-place": "2.0.3",
-    "gulp-concat": "2.6.0",
-    "gulp-cssnano": "^2.1.0",
-    "gulp-eslint": "3.0.1",
-    "gulp-if": "^2.0.0",
-    "gulp-imagemin": "^2.3.0",
-    "gulp-jest": "0.6.0",
-    "gulp-myth": "^1.1.0",
-    "gulp-plumber": "1.1.0",
-    "gulp-sass": "^3.0.0",
-    "gulp-sass-lint": "1.2.0",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-uglify": "^1.2.0"
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-angular": "^4.0.1",
+    "eslint-plugin-compat": "^3.9.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1"
   },
-  "sasslintConfig": "./.sass-lint.yml",
-  "jest": {
-    "coverageThreshold": {
-      "global": {
-        "branches": 80,
-        "functions": 80,
-        "lines": 80,
-        "statements": 80
-      }
-    },
-    "coverageReporters": [
-      "html"
-    ],
-    "coveragePathIgnorePatterns": [
-      "./node_modules",
-      "./includes/js/plugins"
-    ],
-    "testPathIgnorePatterns": [
-      "./node_modules",
-      "./includes/js/plugins"
-    ]
+  "dependencies": {
+    "@angular/animations": "^11.1.2",
+    "@angular/common": "^11.1.2",
+    "@angular/compiler": "^11.1.2",
+    "@angular/core": "^11.1.2",
+    "@angular/forms": "^11.1.2",
+    "@angular/platform-browser": "^11.1.2",
+    "@angular/platform-browser-dynamic": "^11.1.2",
+    "@angular/router": "^11.1.2",
+    "@angular/upgrade": "^11.1.2",
+    "classnames": "^2.2.6",
+    "core-js": "^3.8.3",
+    "zone.js": "^0.11.3"
   }
 }
