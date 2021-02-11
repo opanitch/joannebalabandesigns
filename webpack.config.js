@@ -21,7 +21,7 @@ module.exports = {
   // devtool: 'eval-cheap-module-source-map',
   entry: {
     main: path.resolve(__dirname, 'source/index.ts'),
-    // polyfills: path.resolve(__dirname, 'source/polyfills.ts'),
+    polyfills: path.resolve(__dirname, 'source/polyfills.ts'),
   },
   // mode: process.env.NODE_ENV === 'development' ? 'development' : 'production',
   module: {
