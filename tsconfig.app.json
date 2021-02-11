@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": []
+  },
+  "files": [
+    "source/index.ts",
+    "source/polyfills.ts"
+  ],
+  "exclude": [
+    "source/**/*.spec.ts"
+  ]
+}

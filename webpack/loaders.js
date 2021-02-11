@@ -1,6 +1,6 @@
 const path = require('path');
 
-const postCSSPlugins = require('./postcss.config');
+// const postCSSPlugins = require('./postcss.config');
 
 const dictionaryPath = path.resolve(__dirname, '../assets/dictionary/');
 const dictionaryLoader = {

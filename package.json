@@ -55,6 +55,7 @@
     "@angular/upgrade": "^11.1.2",
     "classnames": "^2.2.6",
     "core-js": "^3.8.3",
+    "rxjs": "^6.6.3",
     "zone.js": "^0.11.3"
   }
 }
