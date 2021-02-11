@@ -17,20 +17,20 @@ console.log('************* WEBPACK CONFIG END *************');
 console.log('**********************************************');
 
 module.exports = {
-  // devServer: devServer,
-  // devtool: 'eval-cheap-module-source-map',
+  devServer: devServer,
+  devtool: 'eval-cheap-module-source-map',
   entry: {
     main: path.resolve(__dirname, 'source/index.ts'),
     polyfills: path.resolve(__dirname, 'source/polyfills.ts'),
   },
-  // mode: process.env.NODE_ENV === 'development' ? 'development' : 'production',
+  mode: process.env.NODE_ENV === 'development' ? 'development' : 'production',
   module: {
     rules: loaders(),
   },
-  // plugins: plugins(),
-  // optimization: {
-  //   noEmitOnErrors: true,
-  // },
+  plugins: plugins(),
+  optimization: {
+    noEmitOnErrors: true,
+  },
   output: {
     // chunkFilename: 'bundles/[name].chunk.js',
     filename: 'bundles/[name].bundle.js',
