@@ -1,4 +1,8 @@
 {
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
   "compileOnSave": true,
   "compilerOptions": {
     /* Basic Options */
@@ -74,5 +78,6 @@
   },
   "exclude": ["node_modules", "**/*.spec.ts"],
   // "files": ["globals.d.ts", "type-utilities.d.ts"],
-  // "include": ["source/**/*.ts"]
+  "files": ["source/index.ts", "source/polyfills.ts"],
+  "include": ["source/**/*.ts"]
 }
