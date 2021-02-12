@@ -4,7 +4,11 @@ const devServer = require('./webpack/devServer');
 const loaders = require('./webpack/loaders');
 const plugins = require('./webpack/plugins');
 
+const ENV = process.env.NODE_ENV;
+
 console.log('**********************************************');
+console.log('********** WEBPACK NODE ENVIRONMENT **********');
+console.log(ENV);
 console.log('*********** WEBPACK CONFIG ALIASES ***********');
 console.log(aliases);
 console.log('********** WEBPACK CONFIG DEV SERVER *********');
@@ -22,8 +26,9 @@ module.exports = {
   entry: {
     main: path.resolve(__dirname, 'source/index.ts'),
     polyfills: path.resolve(__dirname, 'source/polyfills.ts'),
+    vendor: path.resolve(__dirname, 'source/vendor.ts'),
   },
-  mode: process.env.NODE_ENV === 'development' ? 'development' : 'production',
+  mode: ENV === 'development' ? 'development' : 'production',
   module: {
     rules: loaders(),
   },
@@ -32,10 +37,10 @@ module.exports = {
     noEmitOnErrors: true,
   },
   output: {
-    // chunkFilename: 'bundles/[name].chunk.js',
+    chunkFilename: 'bundles/[name].chunk.js',
     filename: 'bundles/[name].bundle.js',
     path: path.resolve(__dirname, 'public'),
-    // publicPath: '/',
+    publicPath: '/',
   },
   resolve: {
     // alias: aliases,

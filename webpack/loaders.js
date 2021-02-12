@@ -1,57 +1,53 @@
 const path = require('path');
 
-// const postCSSPlugins = require('./postcss.config');
+const postCSSPlugins = require('./postcss.config');
 
-const dictionaryPath = path.resolve(__dirname, '../assets/dictionary/');
-const dictionaryLoader = {
-  loader: path.resolve('./build/dictionaryLoader/index.js'),
-  options: {
-    delimiters: ['{{@ ', ' @}}'],
-    escape: true,
-    pathToDictionary: dictionaryPath,
-  },
-};
-const dirList = ['../api', '../public', '../source'];
-const resumeDir = path.resolve(__dirname, '../node_modules/resume-md');
+// const dictionaryPath = path.resolve(__dirname, '../assets/dictionary/');
+// const dictionaryLoader = {
+//   loader: path.resolve('./build/dictionaryLoader/index.js'),
+//   options: {
+//     delimiters: ['{{@ ', ' @}}'],
+//     escape: true,
+//     pathToDictionary: dictionaryPath,
+//   },
+// };
+// const dirList = ['../api', '../public', '../source'];
+// const resumeDir = path.resolve(__dirname, '../node_modules/resume-md');
 
 module.exports = () => {
   return [
-    // {
-    //   test: /\.css$/,
-    //   use: [
-    //     'style-loader',
-    //     'css-loader',
-    //     {
-    //       loader: 'postcss-loader',
-    //       options: {
-    //         postcssOptions: postCSSPlugins,
-    //       },
-    //     },
-    //   ],
-    // },
-    // {
-    //   test: /\.html$/,
-    //   use: ['html-loader'],
-    // },
-    // {
-    //   test: /\.(scss|sass)$/,
-    //   use: [
-    //     'to-string-loader',
-    //     {
-    //       loader: 'css-loader',
-    //       options: {
-    //         sourceMap: true,
-    //       },
-    //     },
-    //     {
-    //       loader: 'sass-loader',
-    //       options: {
-    //         sourceMap: true,
-    //       },
-    //     },
-    //   ],
-    //   include: [path.resolve(__dirname, 'source')],
-    // },
+    // Gobal SASS styles
+    {
+      test: /^(?!.*component).*\.(s?css|sass)$/,
+      exclude: /node_modules/,
+      use: [
+        'style-loader',
+        'css-loader',
+        {
+          loader: 'postcss-loader',
+          options: postCSSPlugins,
+        },
+      ],
+    },
+    // Component-scoped SASS styles
+    {
+      test: /\.component\.(s?css|sass)$/,
+      exclude: /node_modules/,
+      include: [path.resolve(__dirname, '../source')],
+      use: [
+        'to-string-loader',
+        'style-loader',
+        'css-loader',
+        {
+          loader: 'postcss-loader',
+          options: postCSSPlugins,
+        },
+      ],
+    },
+    {
+      test: /\.html$/,
+      use: ['html-loader'],
+    },
     // {
     //   test: /\.(js|ts)x?$/,
     //   include: dirList.map((file) => path.resolve(__dirname, file)),
@@ -61,17 +57,7 @@ module.exports = () => {
       test: /\.ts$/,
       exclude: /node_modules/,
       include: [path.resolve(__dirname, '../source')],
-      use: {
-        loader: 'babel-loader',
-        // {
-        //   loader: 'awesome-typescript-loader',
-        //   options: {
-        //     configFileName: path.resolve(__dirname, 'tsconfig.json'),
-        //   },
-        // },
-        // 'angular2-template-loader',
-        // 'angular-router-loader',
-      },
+      use: ['babel-loader'],
     },
     // {
     //   test: /\.svg$/i,
