@@ -2,6 +2,7 @@ const path = require('path');
 const aliases = require('./webpack/aliases');
 const devServer = require('./webpack/devServer');
 const loaders = require('./webpack/loaders');
+const optimizations = require('./webpack/optimizations');
 const plugins = require('./webpack/plugins');
 
 const ENV = process.env.NODE_ENV;
@@ -34,9 +35,7 @@ module.exports = {
     rules: loaders(),
   },
   plugins: plugins(),
-  optimization: {
-    noEmitOnErrors: true,
-  },
+  optimization: optimizations,
   output: {
     chunkFilename: 'bundles/[name].chunk.js',
     filename: 'bundles/[name].bundle.js',
