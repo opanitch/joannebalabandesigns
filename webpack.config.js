@@ -24,9 +24,10 @@ module.exports = {
   devServer: devServer,
   devtool: 'eval-cheap-module-source-map',
   entry: {
-    main: path.resolve(__dirname, 'source/index.ts'),
-    polyfills: path.resolve(__dirname, 'source/polyfills.ts'),
-    vendor: path.resolve(__dirname, 'source/vendor.ts'),
+    // *** order is important ***
+    polyfills: path.resolve(__dirname, './source/polyfills.ts'),
+    vendor: path.resolve(__dirname, './source/vendor.ts'),
+    main: path.resolve(__dirname, './source/index.ts'),
   },
   mode: ENV === 'development' ? 'development' : 'production',
   module: {
@@ -39,13 +40,13 @@ module.exports = {
   output: {
     chunkFilename: 'bundles/[name].chunk.js',
     filename: 'bundles/[name].bundle.js',
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, './public'),
     publicPath: '/',
   },
   resolve: {
     // alias: aliases,
     extensions: ['.js', '.ts'],
-    modules: [path.resolve(__dirname, 'node_modules')],
+    modules: [path.resolve(__dirname, './node_modules')],
   },
   stats: { colors: true },
 };

@@ -57,7 +57,15 @@ module.exports = () => {
       test: /\.ts$/,
       exclude: /node_modules/,
       include: [path.resolve(__dirname, '../source')],
-      use: ['babel-loader'],
+      use: [
+        {
+          loader: 'awesome-typescript-loader',
+          options: {
+            configFileName: path.resolve(__dirname, '../tsconfig.json'),
+          },
+        },
+        'angular2-template-loader',
+      ],
     },
     // {
     //   test: /\.svg$/i,
