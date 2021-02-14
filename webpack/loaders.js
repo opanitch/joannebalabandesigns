@@ -23,6 +23,7 @@ module.exports = () => {
       use: [
         'style-loader',
         'css-loader',
+        'sass-loader',
         {
           loader: 'postcss-loader',
           options: postCSSPlugins,
@@ -38,6 +39,7 @@ module.exports = () => {
         'to-string-loader',
         'style-loader',
         'css-loader',
+        'sass-loader',
         {
           loader: 'postcss-loader',
           options: postCSSPlugins,
